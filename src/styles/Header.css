@@ -1,0 +1,83 @@
+.navbar-nav{
+	font-weight: bold;
+	color: white;
+}
+
+.nav-link{
+    color: green;
+}
+.left-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav-item{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.nav-item:hover{
+    color: #ffffffc2;
+}
+
+
+
+.btn-modal{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    font-weight: bold;
+    margin: 10px;
+    background-color: transparent;
+    border: transparent;
+}
+.btn-modal:hover{
+    color: #ffffffc2;
+    background-color: transparent;
+    border: transparent;
+}
+.title-elite{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+	text-decoration: none;
+	color: rgba(255,255,255,.55);
+}
+
+.title-elite:hover{
+	color: rgba(255, 166, 0, 0.733);
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .drop{
+    background-color: #212529;
+    color: #212529;
+    border: transparent;
+  }
+
+  .drop:hover{
+    background-color: #212529;
+    color: #212529;
+    border: transparent;
+  }

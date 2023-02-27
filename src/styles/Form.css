@@ -1,0 +1,45 @@
+.task-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.task-status{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.btn-modal{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    font-weight: bold;
+    margin: 10px;
+    background-color: transparent;
+    border: transparent;
+}
+.btn-modal:hover{
+    color: #ffffffc2;
+    background-color: transparent;
+    border: transparent;
+}
+.btn-add{
+    background-color: #008CBA;
+    color: white;
+    border: 0;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.btn-add:hover{
+    
+    color: black;
+    border: 0.5px solid black;
+}

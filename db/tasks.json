@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "App con React Redux",
+      "description": "Aplicacion donde se dominen conocimientos de react redux, libreria bootstrap, consumir api, manejo de github",
+      "date": "2/27/2023",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "name": "Proyecto Elite: conectar backend y frontend",
+      "description": "aplicar arreglos pautados en la reunion del viernes para arreglo de la visulizacion del frontend para poder proceder a la conexion de la db con el front",
+      "date": "3/06/2023",
+      "completed": false
+    },
+    {
+      "name": "Inscripcion ujap",
+      "description": "ir a inscribirme y coneguir los bs suficientes para cancelar el total de la inscripcion",
+      "date": "2023-03-03",
+      "completed": true,
+      "id": 3
+    }
+  ]
+}
